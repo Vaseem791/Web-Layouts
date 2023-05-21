@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
+#container{
+    font-size: 25px;
+    width: 80%;
+    background-color: rgb(113, 233, 235);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#logo{
+    width: 100%;
+    min-height: 50px;
+    background-color:gainsboro;
+    border: 5px solid red;
+    padding-left: 24px;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+#nav{
+    width: 100%;
+    min-height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background:gainsboro;
+    border: 5px solid red;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+#header{
+    width: 100%;
+    min-height: 80%;
+    text-align: center;
+    line-height:80px;
+    background: gainsboro;
+    border: 5px solid red;
+    margin-bottom: 15px;
+}
+#main-content{
+    width: 100%;
+}
+#side-bar{
+    width: 20%;
+    min-height: 400px;
+    text-align: center;
+    line-height:400px ;
+    background-color: gainsboro;
+    border: 5px solid red;
+    float: left;
+}
+#body-area{
+    width: 75%;
+    min-height: 400px;
+    text-align: center;
+    line-height: 400px;
+    background: gainsboro;
+    border: 5px solid red;
+    float: right;
+    margin-bottom: 15px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#footer{
+    width: 100%;
+    min-height: 30%;
+    text-align: center;
+    background: gainsboro;
+    border: 5px solid red;
+    line-height:30px;
+}
